@@ -1,4 +1,4 @@
-# Spicetify Throwback
+# Spicetify Throwback – Spotify 1.3.6
 
 **Throwback** is a fun and nostalgic theme for the Spotify Desktop client that is inspired by the original UI design of the Spotify client and early 2010's-era web design.
 
