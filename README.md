@@ -11,7 +11,18 @@
 
 This theme is **alpha quality software** and various things may break! Please only install this theme at your own risk! I may or may not have time to address all issues in the future!
 
-## Requirements
+## Fork-Hinweis (Spotify 1.3.x)
+
+Dieser Fork passt Throwback an das aktuelle Spotify (getestet mit 1.3.6 auf macOS, Spicetify 2.46.4) an.
+Alle Änderungen stehen in [`src/scss/_modern.scss`](src/scss/_modern.scss) und werden beim Build mit eingebunden;
+dazu kommt `Throwback/theme.js` (macht die Titelleiste beim Scrollen solide).
+
+Neu: bündiges graues Layout ohne Abstände, silberne Bevel-Buttons, Glaskugel-Play-Buttons, eingelassene Regler,
+Lucida-Grande-Schrift, überarbeitete Künstler-, Podcast- und Playlist-Seiten, Werbebanner der Startseite ausgeblendet.
+
+Spotify nutzt gehashte Klassennamen – nach größeren Spotify-Updates können Regeln ins Leere laufen.
+
+## Requirements (Original)
 
 - Spotify Desktop `v1.2.53.440`
 - Spicetify `v2.38.7`
@@ -21,6 +32,8 @@ This theme is **alpha quality software** and various things may break! Please on
 ## Installation
 
 Copy the `Throwback` folder to your Spicetify config folder.
+
+Für `theme.js` zusätzlich `spicetify config inject_theme_js 1` setzen.
 
 Run the following to enable the theme:
 
